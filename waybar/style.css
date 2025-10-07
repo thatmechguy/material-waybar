@@ -64,7 +64,7 @@
   background-color: @background;
   border-radius: 15px;
   min-width: 25px;
-  padding-left: 12px;
+  padding-left: 18px;
 }
 
 #taskbar button:hover {
@@ -95,7 +95,7 @@
   background-color: @background;
   color: @foreground;
   min-width: 12px;
-  margin: 0 3px;
+  margin: 0 2px;
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 15px;
@@ -110,6 +110,7 @@ tooltip {
   background-color: @background;
   color: @foreground;
   border-radius: 5px;
+  border: solid 1px @foreground;
 }
 
 #custom-update {
@@ -142,4 +143,8 @@ tooltip {
 
 #custom-idle {
   padding-left: 10px;
+}
+
+#custom-omarchy {
+  padding-left: 8px;
 }
