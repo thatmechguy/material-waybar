@@ -4,7 +4,6 @@
   background-color: rgba(0, 0, 0, 0);
 
   border: none;
-  border-radius: 0;
   min-height: 0;
   font-family: 'JetBrainsMonoNL Nerd Font';
   font-size: 13px;
@@ -14,20 +13,20 @@
   margin-left: 0px;
   background-color: @foreground;
   padding: 2px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 .modules-right {
   margin-right: 0px;
   background-color: @foreground;
   padding: 2px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 .modules-center {
   background-color: @foreground;
   padding: 2px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 #workspaces button {
@@ -36,23 +35,31 @@
   color: @foreground;
   margin: 0 1.5px;
   min-width: 9px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 #workspaces button.active {
   background-color: @background;
   color: @foreground;
   min-width: 40px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 #workspaces button:hover {
-  border-radius: 15px;
+  border-radius: 3px;
   background-color: @foreground;
 }
 
 #workspaces button.empty {
   opacity: 0.7;
+}
+
+#taskbar {
+  min-width: 12px;
+  margin: 0 2px;
+  /* padding-left: 8px;
+  padding-right: 8px; */
+  border-radius: 3px;
 }
 
 
@@ -62,13 +69,13 @@
 
 #taskbar button.active {
   background-color: @background;
-  border-radius: 15px;
+  border-radius: 3px;
   min-width: 25px;
   padding-left: 18px;
 }
 
 #taskbar button:hover {
-  border-radius: 15px;
+  border-radius: 3px;
   background-color: @foreground;
   
 }
@@ -98,7 +105,7 @@
   margin: 0 2px;
   padding-left: 8px;
   padding-right: 8px;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 #custom-expand-icon {
@@ -109,7 +116,7 @@ tooltip {
   padding: 2px;
   background-color: @background;
   color: @foreground;
-  border-radius: 5px;
+  border-radius: 3px;
   border: solid 1px @foreground;
 }
 
@@ -138,7 +145,7 @@ tooltip {
 /* #window {
   background-color: @foreground;
   color: @background;
-  border-radius: 15px;
+  border-radius: 3px;
 } */
 
 #custom-idle {
