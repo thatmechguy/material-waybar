@@ -155,3 +155,8 @@ tooltip {
 #custom-omarchy {
   padding-left: 8px;
 }
+
+#tray menu {
+  background-color: @background;
+  color: @foreground;
+}
