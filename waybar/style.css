@@ -39,7 +39,7 @@
 }
 
 #workspaces button.active {
-  background-color: @background;
+  background-color: @primary_red;
   color: @foreground;
   min-width: 40px;
   border-radius: 3px;
@@ -65,10 +65,13 @@
 
 #taskbar button{
   transition: all 0.3s ease;
+  background-color: @background;
+  border-radius: 3px;
+  margin: 0 1.5px;
 }
 
 #taskbar button.active {
-  background-color: @background;
+  background-color: @primary_red;
   border-radius: 3px;
   min-width: 25px;
   padding-left: 18px;
