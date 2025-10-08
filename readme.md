@@ -5,3 +5,5 @@
 ### Note
 
 Please copy and paste the waybar files from this repo into your waybar folder
+
+### For best experience, pair with omarchy-dragon-theme
