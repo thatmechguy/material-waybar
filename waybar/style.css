@@ -5,28 +5,28 @@
 
   border: none;
   min-height: 0;
-  font-family: 'JetBrainsMonoNL Nerd Font';
-  font-size: 13px;
+  font-family: 'FiraCode Nerd Font';
+  font-size: 12px;
 }
 
 .modules-left {
   margin-left: 0px;
   background-color: @foreground;
-  padding: 2px;
-  border-radius: 3px;
+  padding: 3px;
+  border-radius: 15px;
 }
 
 .modules-right {
   margin-right: 0px;
   background-color: @foreground;
-  padding: 2px;
-  border-radius: 3px;
+  padding: 3px;
+  border-radius: 15px;
 }
 
 .modules-center {
   background-color: @foreground;
-  padding: 2px;
-  border-radius: 3px;
+  padding: 3px;
+  border-radius: 15px;
 }
 
 #workspaces button {
@@ -35,18 +35,18 @@
   color: @foreground;
   margin: 0 1.5px;
   min-width: 9px;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 #workspaces button.active {
-  background-color: @primary_red;
+  background-color: @primary;
   color: @foreground;
   min-width: 40px;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 #workspaces button:hover {
-  border-radius: 3px;
+  border-radius: 15px;
   background-color: @foreground;
 }
 
@@ -59,26 +59,26 @@
   margin: 0 2px;
   /* padding-left: 8px;
   padding-right: 8px; */
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 
 #taskbar button{
   transition: all 0.3s ease;
   background-color: @background;
-  border-radius: 3px;
+  border-radius: 15px;
   margin: 0 1.5px;
 }
 
 #taskbar button.active {
-  background-color: @primary_red;
-  border-radius: 3px;
+  background-color: @primary;
+  border-radius: 15px;
   min-width: 25px;
   padding-left: 18px;
 }
 
 #taskbar button:hover {
-  border-radius: 3px;
+  border-radius: 15px;
   background-color: @foreground;
   
 }
@@ -108,7 +108,7 @@
   margin: 0 2px;
   padding-left: 8px;
   padding-right: 8px;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 #custom-expand-icon {
@@ -119,7 +119,7 @@ tooltip {
   padding: 2px;
   background-color: @background;
   color: @foreground;
-  border-radius: 3px;
+  border-radius: 15px;
   border: solid 1px @foreground;
 }
 
@@ -148,7 +148,7 @@ tooltip {
 /* #window {
   background-color: @foreground;
   color: @background;
-  border-radius: 3px;
+  border-radius: 15px;
 } */
 
 #custom-idle {
