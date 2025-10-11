@@ -5,7 +5,7 @@
 
   border: none;
   min-height: 0;
-  font-family: 'FiraCode Nerd Font';
+  font-family: 'CaskaydiaMono Nerd Font';
   font-size: 12px;
 }
 
@@ -117,8 +117,8 @@
 
 tooltip {
   padding: 2px;
-  background-color: @background;
-  color: @foreground;
+  background-color: @foreground;
+  /* color: @foreground; */
   border-radius: 15px;
   border: solid 1px @foreground;
 }
